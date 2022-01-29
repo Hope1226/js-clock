@@ -61,3 +61,13 @@ body {
   height: 40px;
   background: black;
 }
+
+.minute-hand {
+  width: 30%;
+  left: 20%;
+}
+
+.hour-hand {
+  width: 35%;
+  left: 15%;
+}
