@@ -51,6 +51,9 @@ body {
   width: 40%;
   position: absolute;
   left: 10%;
+  transform: rotate(90deg);
+  transform-origin: right;
+  transition: all 0.5s;
 }
 
 .middle-cirle {
