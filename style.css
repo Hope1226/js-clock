@@ -1,0 +1,73 @@
+html {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+     -moz-box-sizing: inherit;
+          box-sizing: inherit;
+padding: 0;
+margin: 0;
+text-decoration: none;
+list-style: none;  
+}
+
+.d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  height: 100vh;
+  background:#06327d;
+}
+
+.outer,
+.inner,
+.middle-cirle {
+  border-radius: 50%;
+}
+
+.outer {
+  width: 500px;
+  height: 500px;
+  background: #ffd034;
+  backdrop-filter: blur(8px);
+}
+.inner {
+  width: 80%;
+  height: 80%;
+  background: white;
+}
+
+.hand {
+  height: 20px;
+  background: black;
+  width: 40%;
+  position: absolute;
+  left: 10%;
+  transform: rotate(90deg);
+  transform-origin: right;
+  transition: all 0.5s;
+}
+
+.middle-cirle {
+  width: 40px;
+  height: 40px;
+  background: black;
+}
+
+.minute-hand {
+  width: 30%;
+  left: 20%;
+}
+
+.hour-hand {
+  width: 35%;
+  left: 15%;
+}
